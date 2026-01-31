@@ -1,0 +1,36 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.alxpark/propresenter-mcp",
+  "description": "ProPresenter 7 MCP server",
+  "repository": {
+    "url": "https://github.com/alxpark/propresenter-mcp",
+    "source": "github"
+  },
+  "version": "1.0.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@alxpark/propresenter-mcp",
+      "version": "1.0.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Your ProPresenter 7 API URL",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": false,
+          "name": "PROPRESENTER_URL"
+        },
+        {
+          "description": "ProPresenteer API password if needed",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": true,
+          "name": "PROPRESENTER_PASSWORD"
+        }
+      ]
+    }
+  ]
+}

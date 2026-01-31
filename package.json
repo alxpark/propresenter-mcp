@@ -1,7 +1,7 @@
 {
   "name": "@alxpark/propresenter-mcp",
-  "version": "1.0.0",
-  "mcpName": "io.github.alxpark/propresenter",
+  "version": "1.0.1",
+  "mcpName": "io.github.alxpark/propresenter-mcp",
   "description": "ProPresenter 7 MCP server",
   "type": "module",
   "main": "build/index.js",
