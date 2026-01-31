@@ -1,7 +1,8 @@
 {
-  "name": "propresenter-mcp",
+  "name": "@alxpark/propresenter-mcp",
   "version": "1.0.0",
-  "description": "MCP server for controlling ProPresenter presentations via API",
+  "mcpName": "io.github.alxpark/propresenter",
+  "description": "ProPresenter 7 MCP server",
   "type": "module",
   "main": "build/index.js",
   "scripts": {
@@ -17,6 +18,10 @@
   ],
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alxpark/propresenter-mcp.git"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.4"
   },
