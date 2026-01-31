@@ -2,6 +2,9 @@
 
 A comprehensive Model Context Protocol (MCP) server that provides complete control over ProPresenter presentations via the ProPresenter API. This server implements the full ProPresenter API specification with **231 endpoints** organized into **27 API groups** and exposed through modular client classes.
 
+## Official MCP Registry
+- https://registry.modelcontextprotocol.io/?q=alxpark%2Fpropresenter-mcp
+
 ## Features
 
 This MCP server provides complete coverage of the ProPresenter API across all major control surfaces:
